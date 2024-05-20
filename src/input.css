@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .special-container {
+        @apply max-w-6xl mx-auto;
+    }
+}
+
+@layer components {
+    .p-y-0 {
+        @apply py-0;
+    }
+}
